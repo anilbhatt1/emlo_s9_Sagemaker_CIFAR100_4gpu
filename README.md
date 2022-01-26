@@ -12,7 +12,7 @@
 - Do necessary imports
 - Prepare a python script. Training is done by executing this script through a sagemaker estimator created via Jupyter notebook. 
   - Script Reference : https://github.com/anilbhatt1/emlo_s9_Sagemaker_CIFAR100_4gpu/blob/master/cifar100_pl_v2.py
-  - Template jupyter notebook reference (that was created using conda_pytorch_latest_p36) : https://github.com/anilbhatt1/emlo_s9_Sagemaker_CIFAR100_4gpu/blob/master/sagemaker_notebook%20_CIFAR100.py
+  - Sagemaker jupyter notebook reference (that was created using conda_pytorch_latest_p36) : https://github.com/anilbhatt1/emlo_s9_Sagemaker_CIFAR100_4gpu/blob/master/cifar100_pl_jan25_oregeon_v1.py
   - Reference to use checkpoint : https://docs.aws.amazon.com/sagemaker/latest/dg/model-checkpoints.html
 - Create an estimator with PyTorch class from sagemaker.pytorch library.
 - Whole pytorch lightning code will be inside the py script referred above. Trainer is defined inside py script and also fitted inside the same.
