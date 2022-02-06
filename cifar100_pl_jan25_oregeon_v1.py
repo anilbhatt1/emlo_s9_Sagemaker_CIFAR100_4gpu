@@ -26,7 +26,6 @@ prefix = 'sagemaker/emlo-s9-pt-cifar100_jan25'
 
 checkpoint_suffix = str(uuid.uuid4())[:8]
 checkpoint_s3_path = 's3://{}/checkpoint-{}'.format(bucket, checkpoint_suffix)
-#checkpoint_s3_path = 's3://sagemaker-ap-south-1-426011120934/checkpoint-b56bdf03'
 
 
 # In[4]:
